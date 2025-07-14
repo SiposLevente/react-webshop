@@ -1,0 +1,8 @@
+#sidebar {
+    position: absolute;
+    top: 80px;
+    bottom: 0;
+    left: 0;
+    width: 400px;
+    background-color: rgb(230, 230, 230);
+}
