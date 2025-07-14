@@ -1,0 +1,362 @@
+[
+    {
+        "uuid": "1",
+        "name": "Air Runner",
+        "price": 120,
+        "description": "Lightweight running shoe for daily training",
+        "img": "/shoes/air-runner.png",
+        "tags": [
+            "running",
+            "lightweight",
+            "daily"
+        ]
+    },
+    {
+        "uuid": "2",
+        "name": "Urban Trek",
+        "price": 95,
+        "description": "Stylish and durable for urban walks",
+        "img": "/shoes/urban-trek.png",
+        "tags": [
+            "casual",
+            "walking",
+            "urban"
+        ]
+    },
+    {
+        "uuid": "3",
+        "name": "Trail Master",
+        "price": 140,
+        "description": "Built for off-road adventures",
+        "img": "/shoes/trail-master.png",
+        "tags": [
+            "trail",
+            "hiking",
+            "rugged"
+        ]
+    },
+    {
+        "uuid": "4",
+        "name": "FlexFit Pro",
+        "price": 110,
+        "description": "Adaptive design for high performance",
+        "img": "/shoes/flexfit-pro.png",
+        "tags": [
+            "training",
+            "flexible",
+            "performance"
+        ]
+    },
+    {
+        "uuid": "5",
+        "name": "SpeedForm",
+        "price": 130,
+        "description": "Ultra-light speed shoe",
+        "img": "/shoes/speedform.png",
+        "tags": [
+            "speed",
+            "racing",
+            "lightweight"
+        ]
+    },
+    {
+        "uuid": "6",
+        "name": "ComfyWalk",
+        "price": 70,
+        "description": "Everyday comfort for casual use",
+        "img": "/shoes/comfywalk.png",
+        "tags": [
+            "casual",
+            "walking",
+            "comfort"
+        ]
+    },
+    {
+        "uuid": "7",
+        "name": "Court Blaze",
+        "price": 150,
+        "description": "Tennis shoes with enhanced grip",
+        "img": "/shoes/court-blaze.png",
+        "tags": [
+            "tennis",
+            "court",
+            "grip"
+        ]
+    },
+    {
+        "uuid": "8",
+        "name": "Street Dash",
+        "price": 90,
+        "description": "Sleek design for daily wear",
+        "img": "/shoes/street-dash.png",
+        "tags": [
+            "casual",
+            "style",
+            "daily"
+        ]
+    },
+    {
+        "uuid": "9",
+        "name": "Marathon X",
+        "price": 160,
+        "description": "Optimized for long-distance running",
+        "img": "/shoes/marathon-x.png",
+        "tags": [
+            "running",
+            "long-distance",
+            "endurance"
+        ]
+    },
+    {
+        "uuid": "10",
+        "name": "Core Classic",
+        "price": 85,
+        "description": "Timeless design for all outfits",
+        "img": "/shoes/core-classic.png",
+        "tags": [
+            "classic",
+            "versatile",
+            "casual"
+        ]
+    },
+    {
+        "uuid": "11",
+        "name": "GripZone",
+        "price": 105,
+        "description": "Superior grip for outdoor terrain",
+        "img": "/shoes/gripzone.png",
+        "tags": [
+            "trail",
+            "grip",
+            "outdoor"
+        ]
+    },
+    {
+        "uuid": "12",
+        "name": "TechStride",
+        "price": 125,
+        "description": "Engineered for tech-savvy runners",
+        "img": "/shoes/techstride.png",
+        "tags": [
+            "running",
+            "tech",
+            "lightweight"
+        ]
+    },
+    {
+        "uuid": "13",
+        "name": "Zen Step",
+        "price": 60,
+        "description": "Simple, breathable walking shoe",
+        "img": "/shoes/zen-step.png",
+        "tags": [
+            "walking",
+            "minimal",
+            "breathable"
+        ]
+    },
+    {
+        "uuid": "14",
+        "name": "Volt Runner",
+        "price": 135,
+        "description": "Responsive foam and fast design",
+        "img": "/shoes/volt-runner.png",
+        "tags": [
+            "running",
+            "responsive",
+            "performance"
+        ]
+    },
+    {
+        "uuid": "15",
+        "name": "Shadow Boost",
+        "price": 145,
+        "description": "Stealthy and supportive running shoe",
+        "img": "/shoes/shadow-boost.png",
+        "tags": [
+            "support",
+            "running",
+            "night"
+        ]
+    },
+    {
+        "uuid": "16",
+        "name": "Aero Max",
+        "price": 155,
+        "description": "Maximum air flow for cool performance",
+        "img": "/shoes/aero-max.png",
+        "tags": [
+            "cooling",
+            "performance",
+            "running"
+        ]
+    },
+    {
+        "uuid": "17",
+        "name": "Fusion Grip",
+        "price": 100,
+        "description": "Hybrid design with superior traction",
+        "img": "/shoes/fusion-grip.png",
+        "tags": [
+            "hybrid",
+            "grip",
+            "versatile"
+        ]
+    },
+    {
+        "uuid": "18",
+        "name": "Metro Glide",
+        "price": 75,
+        "description": "Smooth comfort for city walking",
+        "img": "/shoes/metro-glide.png",
+        "tags": [
+            "urban",
+            "comfort",
+            "casual"
+        ]
+    },
+    {
+        "uuid": "19",
+        "name": "Iron Pace",
+        "price": 170,
+        "description": "Built tough for endurance training",
+        "img": "/shoes/iron-pace.png",
+        "tags": [
+            "endurance",
+            "durable",
+            "training"
+        ]
+    },
+    {
+        "uuid": "20",
+        "name": "Street Pulse",
+        "price": 98,
+        "description": "Trendy and comfortable street shoe",
+        "img": "/shoes/street-pulse.png",
+        "tags": [
+            "style",
+            "streetwear",
+            "comfort"
+        ]
+    },
+    {
+        "uuid": "21",
+        "name": "Trail Vibe",
+        "price": 145,
+        "description": "Perfect for trails and light hiking",
+        "img": "/shoes/trail-vibe.png",
+        "tags": [
+            "hiking",
+            "trail",
+            "lightweight"
+        ]
+    },
+    {
+        "uuid": "22",
+        "name": "Cloud Motion",
+        "price": 115,
+        "description": "Feel like you're walking on air",
+        "img": "/shoes/cloud-motion.png",
+        "tags": [
+            "comfort",
+            "cushion",
+            "walking"
+        ]
+    },
+    {
+        "uuid": "23",
+        "name": "XFit Boost",
+        "price": 135,
+        "description": "Cross-training performance with bounce",
+        "img": "/shoes/xfit-boost.png",
+        "tags": [
+            "training",
+            "crossfit",
+            "bounce"
+        ]
+    },
+    {
+        "uuid": "24",
+        "name": "Stride Prime",
+        "price": 88,
+        "description": "Well-balanced for any activity",
+        "img": "/shoes/stride-prime.png",
+        "tags": [
+            "versatile",
+            "balanced",
+            "general"
+        ]
+    },
+    {
+        "uuid": "25",
+        "name": "Orbit Flow",
+        "price": 160,
+        "description": "Futuristic design with comfort tech",
+        "img": "/shoes/orbit-flow.png",
+        "tags": [
+            "tech",
+            "style",
+            "premium"
+        ]
+    },
+    {
+        "uuid": "26",
+        "name": "Peak Speed",
+        "price": 150,
+        "description": "Built for sprints and top speed",
+        "img": "/shoes/peak-speed.png",
+        "tags": [
+            "speed",
+            "racing",
+            "track"
+        ]
+    },
+    {
+        "uuid": "27",
+        "name": "Chill Foam",
+        "price": 95,
+        "description": "Relaxation shoe with soft cushioning",
+        "img": "/shoes/chill-foam.png",
+        "tags": [
+            "casual",
+            "cushion",
+            "relax"
+        ]
+    },
+    {
+        "uuid": "28",
+        "name": "Pulse Grip",
+        "price": 108,
+        "description": "Energy return and strong footing",
+        "img": "/shoes/pulse-grip.png",
+        "tags": [
+            "training",
+            "energy",
+            "grip"
+        ]
+    },
+    {
+        "uuid": "29",
+        "name": "Dash Elite",
+        "price": 140,
+        "description": "Elite performance and sleek looks",
+        "img": "/shoes/dash-elite.png",
+        "tags": [
+            "performance",
+            "elite",
+            "style"
+        ]
+    },
+    {
+        "uuid": "30",
+        "name": "Echo Lite",
+        "price": 90,
+        "description": "Lightweight, low-profile runner",
+        "img": "/shoes/echo-lite.png",
+        "tags": [
+            "running",
+            "lightweight",
+            "minimal"
+        ]
+    }
+]
