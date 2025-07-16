@@ -7,9 +7,12 @@ import TagFilter from './TagFilter'
 const Sidebar = () => {
     return (
         <div id='sidebar'>
-            <h1>Filters</h1>
+            <div id='sidebar-title'>Filters</div>
+            <hr />
             <BrandFilter />
+            <hr />
             <PriceRange />
+            <hr />
             <TagFilter />
         </div>
     )

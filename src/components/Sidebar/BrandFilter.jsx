@@ -10,20 +10,21 @@ const BrandFilter = () => {
 
     return (
         <div>
-            <h2>Brands</h2>
+            <div id='sidebar-subsection'>Brands</div>
             {getUniqueBrands().map((brand, index) => {
                 return <div key={index + "BrandRadio"}>
-                    <label htmlFor={brand + "Radio"} key={index + "Label"}>{brand}</label>
                     <input
+                        className='brandRadio'
                         type='radio'
                         id={brand + "Radio"}
                         value={brand + "Radio"}
                         key={index + "Input"}
                         onChange={() => handleRadioChange(brand + "Radio")}
                         checked={selectedOption == brand + "Radio"}></input>
+                    <label className='brandLabel' htmlFor={brand + "Radio"} key={index + "Label"}>{brand}</label>
                 </div>
             })}
-            <button onClick={() => setSelectedOption("")}>Clear Selection</button>
+            <button id='brand-selector-clear-button' onClick={() => setSelectedOption("")}>Clear Selection</button>
         </div>
     )
 }

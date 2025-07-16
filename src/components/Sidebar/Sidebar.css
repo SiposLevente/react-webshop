@@ -1,3 +1,7 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 #sidebar {
     position: absolute;
     top: 80px;
@@ -6,6 +10,17 @@
     width: 350px;
     background-color: rgb(230, 230, 230);
     padding: 10px 25px 25px 10px;
+}
+
+#sidebar-title {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#sidebar-subsection {
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 10px;
 }
 
 #tag-list {
@@ -20,4 +35,71 @@
     margin: 2px;
     border: solid 1px rgb(0, 0, 0);
     white-space: nowrap;
+}
+
+#brand-selector-clear-button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    color: rgb(49, 51, 168);
+    font-size: 15px;
+}
+
+
+.brandLabel {
+    margin-left: 0.6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #333;
+    user-select: none;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.brandLabel:hover {
+    color: #4a90e2;
+    transform: scale(1.02);
+}
+
+.brandRadio {
+    margin-left: 1rem;
+    margin-bottom: 15px;
+    accent-color: #4a90e2;
+    transform: scale(1.8);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.brandRadio:checked {
+    transform: scale(2.1);
+}
+
+#minimal-price-input,
+#maximum-price-input {
+    width: 100%;
+    padding: 0.4rem 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+#minimal-price-input:focus,
+#maximum-price-input:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.4);
+}
+
+#sidebar-pricerange-applied {
+    position: absolute;
+    right: 30px;
+    top: 350px;
+    transform: scale(2);
+    border: none;
+}
+
+#pricerange-label {
+    font-size: 20px;
 }
