@@ -7,3 +7,17 @@
     background-color: rgb(230, 230, 230);
     padding: 10px 25px 25px 10px;
 }
+
+#tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    word-break: break-all;
+
+}
+
+#tag-element {
+    padding: 5px;
+    margin: 2px;
+    border: solid 1px rgb(0, 0, 0);
+    white-space: nowrap;
+}

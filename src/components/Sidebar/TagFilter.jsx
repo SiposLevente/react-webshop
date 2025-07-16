@@ -1,18 +1,23 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { ShoeProvider } from '../../contexts'
+import TagButton from './TagButton'
 
 const TagFilter = () => {
     const shoes = useContext(ShoeProvider)
+
+    const [tagsSelected, setTagsSelected] = useState([])
     const getUniqueTags = () => [...new Set(shoes.flatMap(shoe => shoe.tags || []))];
 
-
+    useEffect(() => {
+        console.log(tagsSelected)
+    }, [tagsSelected])
 
     return (
         <div>
             <h1>Tags</h1>
-            <div>
+            <div id='tag-list'>
                 {getUniqueTags().map((tag, index) => {
-                    return <div key={index}>{tag}</div>
+                    return <TagButton key={index} selectedTags={{ tagsSelected, setTagsSelected }}>{tag}</TagButton>
                 })}
             </div>
         </div>
