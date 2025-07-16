@@ -1,3 +1,4 @@
 import { createContext } from "react";
 
-export const ShopProvider = createContext({})
+export const CartProvider = createContext({})
+export const ShoeProvider = createContext({})

@@ -1,20 +1,37 @@
 import React, { useEffect, useState } from 'react'
-import { ShopProvider } from '../contexts'
+import { CartProvider, ShoeProvider } from '../contexts'
 
 const ShopContext = ({ children }) => {
     const [cart, setCart] = useState([])
 
     useEffect(() => {
-        sessionStorage.setItem("cartContent", JSON.stringify([{ uuid: "abcd", name: "almaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", count: 2, price: 200, description: "valami", img: "/vite.svg" }, { uuid: "abcc", name: "almaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", count: 1, price: 200, description: "valami", img: "/vite.svg" }]));
-        const localCart = JSON.parse(sessionStorage.getItem("cartContent"));
+        const storedCartContent = JSON.parse(sessionStorage.getItem("cartContent"))
+        const localCart = !storedCartContent ? [] : storedCartContent;
         setCart(localCart)
     }, [])
 
     return (
-        <ShopProvider.Provider value={{ cart, setCart }} >
+        <CartProvider.Provider value={{ cart, setCart }} >
             {children}
-        </ShopProvider.Provider >
+        </CartProvider.Provider >
     )
 }
 
-export default ShopContext
+const ShoeContext = ({ children }) => {
+    const [shoes, setShoes] = useState([])
+
+    useEffect(() => {
+        fetch('/data/shoeDatabase.json')
+            .then(resp => resp.json())
+            .then(data => setShoes(data))
+            .catch(err => console.error("Error fetching shoes! (" + err + ")"))
+    }, [])
+
+    return (
+        <ShoeProvider.Provider value={shoes} >
+            {children}
+        </ShoeProvider.Provider >
+    )
+}
+
+export { ShopContext, ShoeContext }

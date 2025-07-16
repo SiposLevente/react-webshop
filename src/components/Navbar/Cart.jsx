@@ -1,10 +1,10 @@
 import React, { useContext, useState } from 'react'
 import './Navbar.css'
-import { ShopProvider } from '../../contexts'
+import { CartProvider } from '../../contexts'
 import CartCard from './CartCard'
 
 const Cart = () => {
-    const { cart, _ } = useContext(ShopProvider)
+    const { cart, _ } = useContext(CartProvider)
     const [showCart, setShowCart] = useState(false)
 
     const displayCart = () => {

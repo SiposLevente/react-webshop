@@ -1,9 +1,9 @@
 import React, { useContext } from 'react'
-import { ShopProvider } from '../../contexts'
+import { CartProvider } from '../../contexts'
 
 const CartItemCard = ({ element }) => {
     const maxCharacters = 37
-    const { cart, setCart } = useContext(ShopProvider)
+    const { cart, setCart } = useContext(CartProvider)
 
     const removeItem = (id) => {
         const filteredCart = cart.filter((item) => item.uuid !== id);

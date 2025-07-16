@@ -1,9 +1,9 @@
 import React, { useContext } from 'react'
-import { ShopProvider } from '../../contexts'
+import { CartProvider } from '../../contexts'
 import CartItemCard from './CartItemCard'
 
 const CartCard = ({ cartActions }) => {
-    const { cart, setCart } = useContext(ShopProvider)
+    const { cart, setCart } = useContext(CartProvider)
 
     const displayCart = () => {
         const cartSum = cart.reduce((sum, item) => sum + (item.price * item.count), 0);

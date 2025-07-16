@@ -5,10 +5,11 @@
         "price": 120,
         "description": "Lightweight running shoe for daily training",
         "img": "/shoes/air-runner.png",
+        "brand": "Stridex",
         "tags": [
             "running",
             "lightweight",
-            "daily"
+            "performance"
         ]
     },
     {
@@ -17,10 +18,11 @@
         "price": 95,
         "description": "Stylish and durable for urban walks",
         "img": "/shoes/urban-trek.png",
+        "brand": "NovaStep",
         "tags": [
             "casual",
-            "walking",
-            "urban"
+            "durable",
+            "walking"
         ]
     },
     {
@@ -29,10 +31,11 @@
         "price": 140,
         "description": "Built for off-road adventures",
         "img": "/shoes/trail-master.png",
+        "brand": "TrailForge",
         "tags": [
             "trail",
-            "hiking",
-            "rugged"
+            "grip",
+            "durable"
         ]
     },
     {
@@ -41,10 +44,11 @@
         "price": 110,
         "description": "Adaptive design for high performance",
         "img": "/shoes/flexfit-pro.png",
+        "brand": "PaceOne",
         "tags": [
             "training",
-            "flexible",
-            "performance"
+            "performance",
+            "tech"
         ]
     },
     {
@@ -53,10 +57,11 @@
         "price": 130,
         "description": "Ultra-light speed shoe",
         "img": "/shoes/speedform.png",
+        "brand": "Stridex",
         "tags": [
             "speed",
-            "racing",
-            "lightweight"
+            "lightweight",
+            "running"
         ]
     },
     {
@@ -65,10 +70,11 @@
         "price": 70,
         "description": "Everyday comfort for casual use",
         "img": "/shoes/comfywalk.png",
+        "brand": "NovaStep",
         "tags": [
+            "comfort",
             "casual",
-            "walking",
-            "comfort"
+            "walking"
         ]
     },
     {
@@ -77,10 +83,11 @@
         "price": 150,
         "description": "Tennis shoes with enhanced grip",
         "img": "/shoes/court-blaze.png",
+        "brand": "PaceOne",
         "tags": [
-            "tennis",
-            "court",
-            "grip"
+            "grip",
+            "performance",
+            "tech"
         ]
     },
     {
@@ -89,10 +96,11 @@
         "price": 90,
         "description": "Sleek design for daily wear",
         "img": "/shoes/street-dash.png",
+        "brand": "NovaStep",
         "tags": [
-            "casual",
             "style",
-            "daily"
+            "streetwear",
+            "casual"
         ]
     },
     {
@@ -101,10 +109,11 @@
         "price": 160,
         "description": "Optimized for long-distance running",
         "img": "/shoes/marathon-x.png",
+        "brand": "AetherRun",
         "tags": [
             "running",
-            "long-distance",
-            "endurance"
+            "durable",
+            "training"
         ]
     },
     {
@@ -113,10 +122,11 @@
         "price": 85,
         "description": "Timeless design for all outfits",
         "img": "/shoes/core-classic.png",
+        "brand": "TrailForge",
         "tags": [
-            "classic",
-            "versatile",
-            "casual"
+            "style",
+            "casual",
+            "comfort"
         ]
     },
     {
@@ -125,10 +135,11 @@
         "price": 105,
         "description": "Superior grip for outdoor terrain",
         "img": "/shoes/gripzone.png",
+        "brand": "TrailForge",
         "tags": [
             "trail",
             "grip",
-            "outdoor"
+            "durable"
         ]
     },
     {
@@ -137,9 +148,10 @@
         "price": 125,
         "description": "Engineered for tech-savvy runners",
         "img": "/shoes/techstride.png",
+        "brand": "Stridex",
         "tags": [
-            "running",
             "tech",
+            "running",
             "lightweight"
         ]
     },
@@ -149,10 +161,11 @@
         "price": 60,
         "description": "Simple, breathable walking shoe",
         "img": "/shoes/zen-step.png",
+        "brand": "NovaStep",
         "tags": [
             "walking",
-            "minimal",
-            "breathable"
+            "breathable",
+            "comfort"
         ]
     },
     {
@@ -161,10 +174,11 @@
         "price": 135,
         "description": "Responsive foam and fast design",
         "img": "/shoes/volt-runner.png",
+        "brand": "PaceOne",
         "tags": [
-            "running",
-            "responsive",
-            "performance"
+            "performance",
+            "speed",
+            "running"
         ]
     },
     {
@@ -173,10 +187,11 @@
         "price": 145,
         "description": "Stealthy and supportive running shoe",
         "img": "/shoes/shadow-boost.png",
+        "brand": "AetherRun",
         "tags": [
-            "support",
             "running",
-            "night"
+            "comfort",
+            "durable"
         ]
     },
     {
@@ -185,10 +200,11 @@
         "price": 155,
         "description": "Maximum air flow for cool performance",
         "img": "/shoes/aero-max.png",
+        "brand": "AetherRun",
         "tags": [
-            "cooling",
-            "performance",
-            "running"
+            "tech",
+            "lightweight",
+            "performance"
         ]
     },
     {
@@ -197,10 +213,11 @@
         "price": 100,
         "description": "Hybrid design with superior traction",
         "img": "/shoes/fusion-grip.png",
+        "brand": "TrailForge",
         "tags": [
-            "hybrid",
             "grip",
-            "versatile"
+            "training",
+            "trail"
         ]
     },
     {
@@ -209,10 +226,11 @@
         "price": 75,
         "description": "Smooth comfort for city walking",
         "img": "/shoes/metro-glide.png",
+        "brand": "NovaStep",
         "tags": [
-            "urban",
-            "comfort",
-            "casual"
+            "walking",
+            "casual",
+            "streetwear"
         ]
     },
     {
@@ -221,10 +239,11 @@
         "price": 170,
         "description": "Built tough for endurance training",
         "img": "/shoes/iron-pace.png",
+        "brand": "PaceOne",
         "tags": [
-            "endurance",
+            "training",
             "durable",
-            "training"
+            "performance"
         ]
     },
     {
@@ -233,6 +252,7 @@
         "price": 98,
         "description": "Trendy and comfortable street shoe",
         "img": "/shoes/street-pulse.png",
+        "brand": "NovaStep",
         "tags": [
             "style",
             "streetwear",
@@ -245,10 +265,11 @@
         "price": 145,
         "description": "Perfect for trails and light hiking",
         "img": "/shoes/trail-vibe.png",
+        "brand": "TrailForge",
         "tags": [
-            "hiking",
             "trail",
-            "lightweight"
+            "grip",
+            "breathable"
         ]
     },
     {
@@ -257,10 +278,11 @@
         "price": 115,
         "description": "Feel like you're walking on air",
         "img": "/shoes/cloud-motion.png",
+        "brand": "Stridex",
         "tags": [
             "comfort",
-            "cushion",
-            "walking"
+            "walking",
+            "breathable"
         ]
     },
     {
@@ -269,10 +291,11 @@
         "price": 135,
         "description": "Cross-training performance with bounce",
         "img": "/shoes/xfit-boost.png",
+        "brand": "PaceOne",
         "tags": [
             "training",
-            "crossfit",
-            "bounce"
+            "tech",
+            "durable"
         ]
     },
     {
@@ -281,10 +304,11 @@
         "price": 88,
         "description": "Well-balanced for any activity",
         "img": "/shoes/stride-prime.png",
+        "brand": "Stridex",
         "tags": [
-            "versatile",
-            "balanced",
-            "general"
+            "performance",
+            "casual",
+            "comfort"
         ]
     },
     {
@@ -293,10 +317,11 @@
         "price": 160,
         "description": "Futuristic design with comfort tech",
         "img": "/shoes/orbit-flow.png",
+        "brand": "AetherRun",
         "tags": [
             "tech",
             "style",
-            "premium"
+            "streetwear"
         ]
     },
     {
@@ -305,10 +330,11 @@
         "price": 150,
         "description": "Built for sprints and top speed",
         "img": "/shoes/peak-speed.png",
+        "brand": "Stridex",
         "tags": [
             "speed",
-            "racing",
-            "track"
+            "lightweight",
+            "performance"
         ]
     },
     {
@@ -317,10 +343,11 @@
         "price": 95,
         "description": "Relaxation shoe with soft cushioning",
         "img": "/shoes/chill-foam.png",
+        "brand": "NovaStep",
         "tags": [
-            "casual",
-            "cushion",
-            "relax"
+            "comfort",
+            "breathable",
+            "casual"
         ]
     },
     {
@@ -329,10 +356,11 @@
         "price": 108,
         "description": "Energy return and strong footing",
         "img": "/shoes/pulse-grip.png",
+        "brand": "PaceOne",
         "tags": [
+            "grip",
             "training",
-            "energy",
-            "grip"
+            "performance"
         ]
     },
     {
@@ -341,10 +369,11 @@
         "price": 140,
         "description": "Elite performance and sleek looks",
         "img": "/shoes/dash-elite.png",
+        "brand": "AetherRun",
         "tags": [
+            "style",
             "performance",
-            "elite",
-            "style"
+            "speed"
         ]
     },
     {
@@ -353,10 +382,11 @@
         "price": 90,
         "description": "Lightweight, low-profile runner",
         "img": "/shoes/echo-lite.png",
+        "brand": "Stridex",
         "tags": [
             "running",
             "lightweight",
-            "minimal"
+            "breathable"
         ]
     }
 ]
