@@ -3,7 +3,7 @@
 }
 
 #sidebar {
-    position: absolute;
+    position: fixed;
     top: 80px;
     bottom: 0;
     left: 0;
