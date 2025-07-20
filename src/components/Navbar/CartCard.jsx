@@ -9,7 +9,7 @@ const CartCard = ({ cartActions }) => {
     const displayCart = () => {
 
 
-        return (<div>
+        return (<div id='navbar-cart-card-items'>
             {cart.map((element, index) => {
                 return <CartItemCard key={index} element={element} />
             })}
