@@ -1,7 +1,10 @@
-import React, { useRef, useState } from 'react'
+import React, { useContext, useEffect, useRef, useState } from 'react'
 import './Navbar.css'
+import { FilterProvider } from '../../contexts'
 
 const SearchBar = () => {
+    const { filterSettings, setFilterSettings } = useContext(FilterProvider)
+
     const [searchBarContent, setSearchBarContent] = useState("")
     const searchBarRef = useRef({})
 
@@ -13,6 +16,11 @@ const SearchBar = () => {
     const searchBarUpdate = (e) => {
         setSearchBarContent(e.target.value);
     }
+
+    useEffect(() => {
+        setFilterSettings({ ...filterSettings, searchBar: searchBarContent })
+    }, [searchBarContent])
+
 
     return (
         <span>

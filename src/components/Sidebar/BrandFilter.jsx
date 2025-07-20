@@ -1,12 +1,18 @@
-import React, { useContext, useState } from 'react'
-import { ShoeProvider } from '../../contexts'
+import React, { useContext, useEffect, useState } from 'react'
+import { FilterProvider, ShoeProvider } from '../../contexts'
 
 const BrandFilter = () => {
     const shoes = useContext(ShoeProvider)
+    const { filterSettings, setFilterSettings } = useContext(FilterProvider)
+
     const [selectedOption, setSelectedOption] = useState("")
     const getUniqueBrands = () => [...new Set(shoes.map(shoe => shoe.brand))];
     const handleRadioChange = (value) => { setSelectedOption(value); };
 
+
+    useEffect(() => {
+        setFilterSettings({ ...filterSettings, brandSelected: selectedOption.replace("Radio", "") })
+    }, [selectedOption])
 
     return (
         <div>

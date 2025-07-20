@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { CartProvider, ShoeProvider } from '../contexts'
+import { CartProvider, ShoeProvider, FilterProvider } from '../contexts'
 
 const ShopContext = ({ children }) => {
     const [cart, setCart] = useState([])
@@ -34,4 +34,26 @@ const ShoeContext = ({ children }) => {
     )
 }
 
-export { ShopContext, ShoeContext }
+const FilterContext = ({ children }) => {
+    const [filterSettings, setFilterSettings] = useState(
+        {
+            searchBar: "",
+            brandSelected: "",
+            priceFilter:
+            {
+                enabled: false,
+                min: 0,
+                max: 0
+            },
+            tags: []
+        }
+    )
+
+    return (
+        <FilterProvider.Provider value={{ filterSettings, setFilterSettings }} >
+            {children}
+        </FilterProvider.Provider >
+    )
+}
+
+export { ShopContext, ShoeContext, FilterContext }

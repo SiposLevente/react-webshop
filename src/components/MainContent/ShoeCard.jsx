@@ -6,7 +6,7 @@ const ShoeCard = ({ shoe }) => {
         <div className='shoe-card'>
             <img className='shoe-card-img' src={shoe.img} />
             <div className='shoe-card-name'>{shoe.name}</div>
-            <div className='shoe-card-price'>{shoe.price}</div>
+            <div className='shoe-card-price'>{shoe.price} €</div>
             <button className='shoe-card-cart-button'>Add to cart</button>
         </div>
     )
