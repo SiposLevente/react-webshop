@@ -28,6 +28,11 @@ const PriceRange = () => {
     }
 
     useEffect(() => {
+        setMinValue(60)
+        setMaxValue(170)
+    }, []);
+
+    useEffect(() => {
         setFilterSettings({ ...filterSettings, priceFilter: { ...filterSettings.priceFilter, enabled: filterPrice } })
     }, [filterPrice])
 
