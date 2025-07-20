@@ -8,7 +8,6 @@ const CartItemCard = ({ element }) => {
     const removeItem = (id) => {
         const filteredCart = cart.filter((item) => item.uuid !== id);
         setCart(filteredCart);
-        sessionStorage.setItem("cartContent", JSON.stringify(filteredCart));
     }
     return (
         <div id='cart-item'>
